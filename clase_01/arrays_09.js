@@ -4,11 +4,11 @@ const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto'
 const dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo']
 
 
-let meses_maysucula = meses.map((mes) => {
-  return mes.toUpperCase()
+let meses_minuscula = meses.map((mes) => {
+  return mes.toLowerCase()
 })
 
-console.log('meses_maysucula: ' + meses_maysucula)
+console.log('meses_maysucula: ' + meses_minuscula)
 
 
 // Ahora crear un array con los dias de la semana en MAYUSCULAS usando la funcion map
