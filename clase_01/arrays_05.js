@@ -11,7 +11,8 @@ const size_fechas = fechas.length  // Tamaño del array de fechas
 
 for (let a = 0; a < size_años; a=a+1) {
   for (let m = 0; m < size_meses; m=m+1) {
-    console.log( meses[m] + ' de ' + años[a] )
+  for 
+    console.log( meses[m] + ' de ' + años[a] ){
   }
 }
 
